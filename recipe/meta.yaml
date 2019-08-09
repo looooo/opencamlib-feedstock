@@ -11,14 +11,14 @@ source:
     sha256: {{ sha256 }}
 
 build:
-    number: 0
+    number: 1
     skip: true  # [py<36]
 
 requirements:
     build:
         - {{ compiler("cxx") }}
         - ninja
-        - cmake <=3.14
+        - cmake
     host:
         - python
         - boost
