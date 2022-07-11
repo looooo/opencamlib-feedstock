@@ -16,6 +16,7 @@ cmake -G "Ninja" \
       -D Boost_NO_BOOST_CMAKE:BOOL=ON \
       -D VERSION_STRING:STRING="${PKG_VERSION}" \
       -D Python3_FIND_STRATEGY=LOCATION \
+      -D BUILD_DOC=OFF \
       ../src
 
 ninja install
