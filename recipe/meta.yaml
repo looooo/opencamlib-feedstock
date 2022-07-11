@@ -24,7 +24,6 @@ requirements:
     host:
         - python
         - boost
-        - doxygen
     run:
         - boost
         - python
