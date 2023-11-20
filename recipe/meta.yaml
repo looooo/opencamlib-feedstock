@@ -33,11 +33,9 @@ requirements:
         - python
         - pip
         - scikit-build-core
-        - libboost-devel
         - libboost-python-devel
     run:
         - python
-        - libboost-python
 
 test:
   imports:
