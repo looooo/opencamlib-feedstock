@@ -15,7 +15,7 @@ source:
         - patches/version_string.patch
 
 build:
-    number: 2
+    number: 3
     skip: true  # [py<36]
 
 requirements:
@@ -33,11 +33,9 @@ requirements:
         - python
         - pip
         - scikit-build-core
-        - libboost-devel
         - libboost-python-devel
     run:
         - python
-        - libboost-python
 
 test:
   imports:
